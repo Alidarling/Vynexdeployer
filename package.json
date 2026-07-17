@@ -1,0 +1,9 @@
+{
+  "name": "vynexapp-frozen-deployer",
+  "version": "14.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "check": "node --check worker.js"
+  }
+}
